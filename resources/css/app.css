@@ -1,4 +1,7 @@
 @import 'tailwindcss';
+@plugin "daisyui" {
+    themes: corporate --default, dark;
+}
 @import '../../vendor/livewire/flux/dist/flux.css';
 
 @source '../views';

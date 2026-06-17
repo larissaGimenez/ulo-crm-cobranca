@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Livewire\Settings;
+namespace Modules\Auth\Livewire\Settings;
 
-use App\Concerns\PasswordValidationRules;
 use Exception;
 use Flux\Flux;
 use Illuminate\Support\Facades\Auth;
@@ -18,8 +17,9 @@ use Livewire\Attributes\Locked;
 use Livewire\Attributes\Title;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
+use Modules\Auth\Concerns\PasswordValidationRules;
 
-#[Title('Security settings')]
+#[Title('Configurações de segurança')]
 class Security extends Component
 {
     use PasswordValidationRules;
@@ -114,7 +114,7 @@ class Security extends Component
 
         $this->reset('current_password', 'password', 'password_confirmation');
 
-        Flux::toast(variant: 'success', text: __('Password updated.'));
+        Flux::toast(variant: 'success', text: __('Senha atualizada.'));
     }
 
     /**
@@ -289,24 +289,29 @@ class Security extends Component
     {
         if ($this->twoFactorEnabled) {
             return [
-                'title' => __('Two-factor authentication enabled'),
-                'description' => __('Two-factor authentication is now enabled. Scan the QR code or enter the setup key in your authenticator app.'),
-                'buttonText' => __('Close'),
+                'title' => __('Autenticação de dois fatores ativada'),
+                'description' => __('A autenticação de dois fatores agora está ativada. Escaneie o código QR ou insira a chave de configuração no seu aplicativo autenticador.'),
+                'buttonText' => __('Fechar'),
             ];
         }
 
         if ($this->showVerificationStep) {
             return [
-                'title' => __('Verify authentication code'),
-                'description' => __('Enter the 6-digit code from your authenticator app.'),
-                'buttonText' => __('Continue'),
+                'title' => __('Verificar código de autenticação'),
+                'description' => __('Insira o código de 6 dígitos do seu aplicativo autenticador.'),
+                'buttonText' => __('Continuar'),
             ];
         }
 
         return [
-            'title' => __('Enable two-factor authentication'),
-            'description' => __('To finish enabling two-factor authentication, scan the QR code or enter the setup key in your authenticator app.'),
-            'buttonText' => __('Continue'),
+            'title' => __('Ativar autenticação de dois fatores'),
+            'description' => __('Para concluir a ativação da autenticação de dois fatores, escaneie o código QR ou insira a chave de configuração no seu aplicativo autenticador.'),
+            'buttonText' => __('Continuar'),
         ];
+    }
+
+    public function render()
+    {
+        return view('auth::settings.security');
     }
 }

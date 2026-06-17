@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\Actions;
+namespace Modules\Auth\Actions;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Auth;
