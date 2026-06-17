@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Gate;
 use Laravel\Fortify\Fortify;
 use Livewire\Livewire;
 use Modules\Auth\Actions\Fortify\CreateNewUser;
@@ -27,6 +28,10 @@ class AuthModuleServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // Regra de Super Admin (Master) do Spatie
+        Gate::before(function ($user, $ability) {
+            return $user->hasRole('master') ? true : null;
+        });
         // Carregar views do módulo
         $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'auth');
 

@@ -15,11 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        // Executar o seeder de perfis e permissões do módulo Auth
+        $this->call(\Modules\Auth\Database\Seeders\RolesAndPermissionsSeeder::class);
     }
 }
