@@ -7,5 +7,6 @@ use Modules\Clients\Providers\ClientsModuleServiceProvider;
 return [
     AppServiceProvider::class,
     AuthModuleServiceProvider::class,
-    ClientsModuleServiceProvider::class
+    ClientsModuleServiceProvider::class,
+    \Modules\Billings\Providers\BillingsModuleServiceProvider::class
 ];

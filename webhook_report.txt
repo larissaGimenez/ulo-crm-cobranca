@@ -1,0 +1,312 @@
+ID: 7 | Processed: YES
+Error: 
+Payload Keys: messageId, topic, event, author, appKey, appHash, origin
+Topic: ClienteFornecedor.Alterado
+Event Keys: bairro, bloqueado, bloquear_faturamento, cep, cidade, cnae, cnpj_cpf, codigo_cliente_integracao, codigo_cliente_omie, codigo_pais, complemento, contato, contribuinte, dadosBancarios, email, endereco, endereco_numero, estado, exterior, fax_ddd, fax_numero, homepage, inativo, inscricao_estadual, inscricao_municipal, inscricao_suframa, logradouro, nif, nome_fantasia, obs_detalhadas, observacao, optante_simples_nacional, pessoa_fisica, produtor_rural, razao_social, recomendacao_atraso, recomendacoes, tags, telefone1_ddd, telefone1_numero, telefone2_ddd, telefone2_numero, tipo_atividade, valor_limite_credito
+Payload JSON: {
+    "messageId": "db594fcb-be08-4b9f-8848-d6553b388112",
+    "topic": "ClienteFornecedor.Alterado",
+    "event": {
+        "bairro": null,
+        "bloqueado": "N",
+        "bloquear_faturamento": null,
+        "cep": null,
+        "cidade": null,
+        "cnae": null,
+        "cnpj_cpf": "57.703.717\/0001-17",
+        "codigo_cliente_integracao": null,
+        "codigo_cliente_omie": 5582786862,
+        "codigo_pais": "1058",
+        "complemento": null,
+        "contato": null,
+        "contribuinte": null,
+        "dadosBancarios": {
+            "agencia": null,
+            "codigo_banco": null,
+            "conta_corrente": null,
+            "doc_titular": null,
+            "nome_titular": null
+        },
+        "email": null,
+        "endereco": null,
+        "endereco_numero": null,
+        "estado": null,
+        "exterior": "N",
+        "fax_ddd": null,
+        "fax_numero": null,
+        "homepage": null,
+        "inativo": "N",
+        "inscricao_estadual": null,
+        "inscricao_municipal": null,
+        "inscricao_suframa": null,
+        "logradouro": null,
+        "nif": null,
+        "nome_fantasia": "Larissa (teste)",
+        "obs_detalhadas": null,
+        "observacao": null,
+        "optante_simples_nacional": null,
+        "pessoa_fisica": "N",
+        "produtor_rural": null,
+        "razao_social": "Larissa (teste 2)",
+        "recomendacao_atraso": null,
+        "recomendacoes": {
+            "codigo_vendedor": 0,
+            "email_fatura": null,
+            "gerar_boletos": "N",
+            "numero_parcelas": null
+        },
+        "tags": [
+            {
+                "tag": "Cliente"
+            }
+        ],
+        "telefone1_ddd": null,
+        "telefone1_numero": null,
+        "telefone2_ddd": null,
+        "telefone2_numero": null,
+        "tipo_atividade": null,
+        "valor_limite_credito": "0.00"
+    },
+    "author": {
+        "email": "larissa.gimenez@ejfa.com.br",
+        "name": "Larissa Gimenez",
+        "userId": 1219170
+    },
+    "appKey": "7560230439762",
+    "appHash": "otm-e2zpu10f",
+    "origin": "omie-connect-2.0"
+}
+--------------------------------------------------------------------------------
+ID: 6 | Processed: YES
+Error: 
+Payload Keys: ping
+Payload JSON: {
+    "ping": "omie"
+}
+--------------------------------------------------------------------------------
+ID: 5 | Processed: YES
+Error: 
+Payload Keys: messageId, topic, event, author, appKey, appHash, origin
+Topic: ClienteFornecedor.Alterado
+Event Keys: bairro, bloqueado, bloquear_faturamento, cep, cidade, cnae, cnpj_cpf, codigo_cliente_integracao, codigo_cliente_omie, codigo_pais, complemento, contato, contribuinte, dadosBancarios, email, endereco, endereco_numero, estado, exterior, fax_ddd, fax_numero, homepage, inativo, inscricao_estadual, inscricao_municipal, inscricao_suframa, logradouro, nif, nome_fantasia, obs_detalhadas, observacao, optante_simples_nacional, pessoa_fisica, produtor_rural, razao_social, recomendacao_atraso, recomendacoes, tags, telefone1_ddd, telefone1_numero, telefone2_ddd, telefone2_numero, tipo_atividade, valor_limite_credito
+Payload JSON: {
+    "messageId": "85ccbee7-7b85-4668-81a9-219ad6869724",
+    "topic": "ClienteFornecedor.Alterado",
+    "event": {
+        "bairro": null,
+        "bloqueado": "N",
+        "bloquear_faturamento": null,
+        "cep": null,
+        "cidade": null,
+        "cnae": null,
+        "cnpj_cpf": "57.703.717\/0001-17",
+        "codigo_cliente_integracao": null,
+        "codigo_cliente_omie": 5582786862,
+        "codigo_pais": "1058",
+        "complemento": null,
+        "contato": null,
+        "contribuinte": null,
+        "dadosBancarios": {
+            "agencia": null,
+            "codigo_banco": null,
+            "conta_corrente": null,
+            "doc_titular": null,
+            "nome_titular": null
+        },
+        "email": null,
+        "endereco": null,
+        "endereco_numero": null,
+        "estado": null,
+        "exterior": "N",
+        "fax_ddd": null,
+        "fax_numero": null,
+        "homepage": null,
+        "inativo": "N",
+        "inscricao_estadual": null,
+        "inscricao_municipal": null,
+        "inscricao_suframa": null,
+        "logradouro": null,
+        "nif": null,
+        "nome_fantasia": "Larissa (teste)",
+        "obs_detalhadas": null,
+        "observacao": null,
+        "optante_simples_nacional": null,
+        "pessoa_fisica": "N",
+        "produtor_rural": null,
+        "razao_social": "Larissa (teste 2)",
+        "recomendacao_atraso": null,
+        "recomendacoes": {
+            "codigo_vendedor": 0,
+            "email_fatura": null,
+            "gerar_boletos": "N",
+            "numero_parcelas": null
+        },
+        "tags": [],
+        "telefone1_ddd": null,
+        "telefone1_numero": null,
+        "telefone2_ddd": null,
+        "telefone2_numero": null,
+        "tipo_atividade": null,
+        "valor_limite_credito": "0.00"
+    },
+    "author": {
+        "email": "larissa.gimenez@ejfa.com.br",
+        "name": "Larissa Gimenez",
+        "userId": 1219170
+    },
+    "appKey": "7560230439762",
+    "appHash": "otm-e2zpu10f",
+    "origin": "omie-connect-2.0"
+}
+--------------------------------------------------------------------------------
+ID: 4 | Processed: YES
+Error: 
+Payload Keys: ping
+Payload JSON: {
+    "ping": "omie"
+}
+--------------------------------------------------------------------------------
+ID: 3 | Processed: NO
+Error: Documento do cliente (CNPJ/CPF) não fornecido no payload.
+#0 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(46): Modules\Billings\Http\Controllers\OmieWebhookController->handle(Object(Illuminate\Http\Request))
+#1 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Route.php(275): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Modules\Billings\Http\Controllers\OmieWebhookController), 'handle')
+#2 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Route.php(215): Illuminate\Routing\Route->runController()
+#3 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(822): Illuminate\Routing\Route->run()
+#4 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(180): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#5 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(52): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#6 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#7 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#8 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(821): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#9 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(800): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(764): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#11 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(753): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(200): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(180): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#14 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\livewire\livewire\src\Features\SupportDisablingBackButtonCache\DisableBackButtonCacheMiddleware.php(19): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Livewire\Features\SupportDisablingBackButtonCache\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#18 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php(51): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#24 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php(109): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#25 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php(74): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php(58): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks.php(22): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePathEncoding.php(28): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePathEncoding->handle(Object(Illuminate\Http\Request), Object(Closure))
+#34 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#35 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(175): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#36 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#37 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1220): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#38 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\public\index.php(20): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#39 C:\Program Files\Herd\resources\app.asar.unpacked\resources\valet\server.php(139): require('C:\\Users\\OTM Te...')
+#40 {main}
+Payload Keys: ping
+Payload JSON: {
+    "ping": "omie"
+}
+--------------------------------------------------------------------------------
+ID: 2 | Processed: NO
+Error: Documento do cliente (CNPJ/CPF) não fornecido no payload.
+#0 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(46): Modules\Billings\Http\Controllers\OmieWebhookController->handle(Object(Illuminate\Http\Request))
+#1 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Route.php(275): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Modules\Billings\Http\Controllers\OmieWebhookController), 'handle')
+#2 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Route.php(215): Illuminate\Routing\Route->runController()
+#3 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(822): Illuminate\Routing\Route->run()
+#4 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(180): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#5 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(52): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#6 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#7 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#8 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(821): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#9 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(800): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(764): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#11 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(753): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(200): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(180): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#14 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\livewire\livewire\src\Features\SupportDisablingBackButtonCache\DisableBackButtonCacheMiddleware.php(19): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Livewire\Features\SupportDisablingBackButtonCache\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#18 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php(51): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#24 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php(109): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#25 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php(74): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php(58): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks.php(22): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePathEncoding.php(28): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePathEncoding->handle(Object(Illuminate\Http\Request), Object(Closure))
+#34 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#35 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(175): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#36 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#37 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1220): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#38 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\public\index.php(20): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#39 C:\Program Files\Herd\resources\app.asar.unpacked\resources\valet\server.php(139): require('C:\\Users\\OTM Te...')
+#40 {main}
+Payload Keys: ping
+Payload JSON: {
+    "ping": "omie"
+}
+--------------------------------------------------------------------------------
+ID: 1 | Processed: NO
+Error: Documento do cliente (CNPJ/CPF) não fornecido no payload.
+#0 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(46): Modules\Billings\Http\Controllers\OmieWebhookController->handle(Object(Illuminate\Http\Request))
+#1 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Route.php(275): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Modules\Billings\Http\Controllers\OmieWebhookController), 'handle')
+#2 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Route.php(215): Illuminate\Routing\Route->runController()
+#3 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(822): Illuminate\Routing\Route->run()
+#4 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(180): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#5 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(52): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#6 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#7 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#8 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(821): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#9 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(800): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(764): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#11 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Routing\Router.php(753): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(200): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(180): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#14 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\livewire\livewire\src\Features\SupportDisablingBackButtonCache\DisableBackButtonCacheMiddleware.php(19): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Livewire\Features\SupportDisablingBackButtonCache\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#16 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#18 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php(51): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#24 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php(109): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#25 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php(74): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php(58): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks.php(22): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePathEncoding.php(28): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePathEncoding->handle(Object(Illuminate\Http\Request), Object(Closure))
+#34 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#35 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(175): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#36 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#37 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1220): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#38 C:\Users\OTM Tech\Herd\ulo-crm-cobranca\public\index.php(20): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#39 C:\Program Files\Herd\resources\app.asar.unpacked\resources\valet\server.php(139): require('C:\\Users\\OTM Te...')
+#40 {main}
+Payload Keys: ping
+Payload JSON: {
+    "ping": "omie"
+}
+--------------------------------------------------------------------------------
